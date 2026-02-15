@@ -1,0 +1,43 @@
+{
+  "applicationId": "js.neutralino.zero",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/src-fe/dist/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": [
+    "app.*",
+    "filesystem.readDirectory",
+    "os.getEnv"
+  ],
+  "enableExtensions": false,
+  "modes": {
+    "window": {
+      "title": "NEU",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200,
+      "icon": "/src-fe/public/logo192.png",
+      "enableInspector": true,
+      "exitProcessOnClose": true,
+      "openInspectorOnStartup": true
+    }
+  },
+  "cli": {
+    "binaryName": "NEU",
+    "extensionsPath": "/extensions/",
+    "resourcesPath": "/src-fe/dist/",
+    "frontendLibrary": {
+      "patchFile": "/src-fe/index.html",
+      "devUrl": "http://localhost:5173",
+      "projectPath": "/src-fe/",
+      "initCommand": "npm i",
+      "devCommand": "npm run dev",
+      "buildCommand": "npm run build",
+      "waitTimeout": 20000
+    },
+    "binaryVersion": "6.5.0"
+  }
+}

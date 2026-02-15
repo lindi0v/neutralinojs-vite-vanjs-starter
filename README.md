@@ -1,0 +1,4 @@
+- `git clone https://github.com/lindi0v/neutralinojs-vite-vanjs-starter.git`
+- `cd src-fe`
+- `npm i`
+- `cd .. && neu run`
