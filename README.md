@@ -11,4 +11,4 @@ Questions:
 
 3. What’s the best way to automatically stop the Vite dev server when the app is closed?
 
-I'm using macOS 26.2
+Opened an [issue](https://github.com/neutralinojs/neutralino.js/issues/192) in the neutralino.js repo
